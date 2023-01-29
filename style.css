@@ -365,3 +365,10 @@ footer button.show{
     color: #fff;
     background: #007bff;
 }
+@media(max-width:992px) {
+	.alert-validate::before {
+		visibility: visible;
+		opacity: 1
+	}
+
+}
